@@ -8,8 +8,10 @@ public class Task2 {
 		double a = 5.0;
 		double b = 4.0;
 		double c = 2.0;
+		
 		double result = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a) - Math.pow(a, 3) * c + Math.pow(b, -2);
-		System.out.println("значение выражения = " + result);
+		
+		System.out.println("Value of expression = " + result);
 
 	}
 

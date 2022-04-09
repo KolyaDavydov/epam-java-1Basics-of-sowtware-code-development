@@ -6,6 +6,7 @@ public class Task5 {
 
 	public static void main(String[] args) {
 		int t = 3659067;
+		
 		int hours = (int) (t / 3600);
 		t = t - (hours * 3600);
 		

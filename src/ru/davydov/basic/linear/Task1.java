@@ -8,8 +8,10 @@ public class Task1 {
 		double a = 5.0;
 		double b = 4.0;
 		double c = 2.0;
+		
 		double z = ((a - 3) * b / 2) + c;
-		System.out.println("Значение функции z = " + z);
+		
+		System.out.println("Value of function z = " + z);
 
 	}
 
