@@ -1,7 +1,7 @@
 package ru.davydov.basic.linear;
 
-import java.math.RoundingMode;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 //4.Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях). Поменять местами
 //дробную и целую части числа и вывести полученное значение числа.

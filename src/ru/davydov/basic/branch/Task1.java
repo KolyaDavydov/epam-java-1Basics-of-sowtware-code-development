@@ -7,7 +7,7 @@ public class Task1 {
 
 	public static void main(String[] args) {
 		double a = 45;
-		double b = 45;
+		double b = 46;
 		
 		if (a > 0 && b > 0 && (a + b) < 180) {
 			if ((a + b) == 90 || a == 90 || b == 90) {
