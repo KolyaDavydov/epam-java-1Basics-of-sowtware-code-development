@@ -1,6 +1,6 @@
 package ru.davydov.basic.linear;
 
-//1.Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
+// 1.Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
 
 public class Task1 {
 

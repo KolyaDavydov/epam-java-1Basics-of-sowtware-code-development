@@ -2,8 +2,9 @@ package ru.davydov.basic.cycle;
 
 import java.util.Scanner;
 
-/*1. Напишите  программу,  где  пользователь  вводит любое  целое  положительное  число.
- * А  программа  суммирует все числа от 1 до введенного пользователем числа.
+/*
+	1. Напишите  программу,  где  пользователь  вводит любое  целое  положительное  число.
+	А  программа  суммирует все числа от 1 до введенного пользователем числа.
 */
 
 public class Task1 {
@@ -15,11 +16,9 @@ public class Task1 {
 		int num = 1;
 		int sum = 0;
 		
-		
-		
 		while(true) {
 			
-			@SuppressWarnings("resource")
+			@SuppressWarnings("resource")	// говорят исопльзовать при Scanner
 			Scanner scanner = new Scanner(System.in);
 			
 			if(!scanner.hasNextInt()) {
